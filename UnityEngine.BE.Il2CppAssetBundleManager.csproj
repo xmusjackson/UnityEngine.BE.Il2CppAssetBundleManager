@@ -24,24 +24,21 @@
     <None Remove="Output\**" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>Libs\Il2CppInterop.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Il2Cppmscorlib">
-      <Private>false</Private>
+      <Private>False</Private>
       <HintPath>Libs\Il2Cppmscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Il2CppSystem">
-      <Private>false</Private>
       <HintPath>Libs\Il2CppSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Il2CppInterop.Runtime">
-      <Private>false</Private>
-      <HintPath>Libs\Il2CppInterop.Runtime.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <Private>false</Private>
       <HintPath>Libs\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.733" />
   </ItemGroup>
 </Project>
